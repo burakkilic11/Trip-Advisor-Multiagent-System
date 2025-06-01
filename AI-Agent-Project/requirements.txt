@@ -2,3 +2,10 @@ langchain
 langchain-ollama
 langchain-chroma
 langgraph
+requests
+langchain_core
+tavily
+serpapi
+json
+re
+dotenv
