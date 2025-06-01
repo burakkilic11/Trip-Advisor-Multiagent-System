@@ -1,4 +1,4 @@
-Travel Planning Assistant - README
+Travel Planning Assistant
 This project is a multi-agent system designed to assist users in planning their travels by providing essential recommendations and information. It integrates multiple APIs to gather data on travel dates, city information, weather forecasts, hotels, and currency exchange rates.
 
 Features
@@ -44,7 +44,7 @@ Don't forget to pull the Llama 3.2 model from Ollama
 Install the required dependencies:
 
 bash
-Copy
+
 pip install requests langchain_ollama langchain_core langgraph tavily serpapi python-dotenv
 Create a .env file in the project root directory with the following content:
 
@@ -66,8 +66,9 @@ How to Run
 After setting up the environment and API keys, run the script:
 
 bash
-Copy
 python main.py
+
+
 Interact with the Assistant:
 
 The assistant will ask for your travel date and preferred city.
